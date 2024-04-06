@@ -17,3 +17,4 @@ RUN R -e "renv::restore()"
 CMD ["Rscript", "main.R"]
 
 LABEL org.opencontainers.image.source https://github.com/ndrewgele/symbol-fetcher
+LABEL org.opencontainers.image.description "A service for finding stock symbols to use in the Argosy application."
